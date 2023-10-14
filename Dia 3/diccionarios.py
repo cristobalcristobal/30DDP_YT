@@ -7,6 +7,13 @@ diccionario = { "nombre": "Juan",
                "apellido": "Perez", 
                "edad": 25 }
 
+# Las Keys de un diccionario son algo así como los índices de una lista.
+# Las Keys son las claves de un diccionario.
+# Las Keys son los nombres de las claves de un diccionario.
+# estas son las keys del diccionario de ejemplo:
+
+print(diccionario.keys())
+
 # Podemos acceder a los elementos de un diccionario por medio de su clave.
 
 print(diccionario["nombre"])
@@ -58,6 +65,7 @@ print(diccionario)
 # El método dell elimina el diccionario por completo.
 # Es util cuando queremos eliminar un diccionario.
 del diccionario
+
 
 # Ejercicios
 # 1. Crea un diccionario con los datos de una persona: nombre, edad, sexo y teléfono.
